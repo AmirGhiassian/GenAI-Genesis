@@ -30,16 +30,22 @@ class Nasa:
                 "Tile_Matrix_Set": "1km",
                 "Img_Type": "png",
             },
-            "SeaSurfaceTemp": {
+            "DaytimeSST": {
                 "layer": "MODIS_Aqua_L2_Sea_Surface_Temp_Day",
                 "style": "default",
                 "Tile_Matrix_Set": "1km",
                 "Img_Type": "png",
             },
-            "WindSpeedSDRDaily": {
-                "layer": "CYGNSS_L3_Wind_Speed_SDR_Daily",
+            "NighttimeSST": {
+                "layer": "MODIS_Aqua_L2_Sea_Surface_Temp_Night",
                 "style": "default",
-                "Tile_Matrix_Set": "2km",
+                "Tile_Matrix_Set": "1km",
+                "Img_Type": "png",
+            },
+            "PAR": {
+                "layer": "MODIS_Aqua_L2_Photosynthetically_Available_Radiation",
+                "style": "default",
+                "Tile_Matrix_Set": "1km",
                 "Img_Type": "png",
             },
         }
