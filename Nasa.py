@@ -1,7 +1,6 @@
-from io import BytesIO
 import requests
 import matplotlib.pyplot as plt
-from PIL import Image as plimg
+from vertexai.generative_models import Image
 import math
 
 
@@ -34,7 +33,6 @@ class Nasa:
                 "Img_Type": "png",
             },
         }
-        print("I Ran!")
         self.TILE_MATRIX = 2
 
     def change_style(self, layer, style):
@@ -88,9 +86,8 @@ class Nasa:
                 self.layers[layer]["Img_Type"],
             )
         )
-        print(satalite_image)
         response = requests.get(satalite_image)
-        img = plimg.open(BytesIO(response.content))
+        img = Image.from_bytes(response.content)
         return img
 
     def show_image(self, layer):
