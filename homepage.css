@@ -29,17 +29,24 @@
 .pollution-solution {
   font-size: 3rem; /* Adjust font size as needed */
   color: #fff; /* Text color */
-  text-transform: uppercase;
+ margin-left: 300px;
+ margin-bottom: -200px;
+ font-weight: bold;
+font-size: 100px;
+position: absolute;
+top: -400px; /* Adjust based on the positioning of the image */
+left: 10px;
 }
 
 .divw-layout-grid {
   text-align: left;
   margin-top: 50px; /* Adjust spacing as needed */
   width: 35%;
+  position: relative; /* Ensure this container is positioned */
 }
 
 .imageimage-12 {
-  max-width: 100%;
+  max-width: 70%;
   height: auto;
 }
 
@@ -66,6 +73,7 @@
   border-radius: 25px; /* Adjust border radius as needed */
   cursor: pointer;
   transition: all 0.3s ease;
+  margin-top: -500px; /* Adjust spacing as needed */
 }
 
 .click-to-enter:hover {
