@@ -22,7 +22,7 @@ import math
 
 class Nasa:
 
-    def __init__(self, time, TILE_MATRIX):
+    def __init__(self):
         self.layers = {
             "Chlorophyll": {
                 "layer": "MODIS_Aqua_L2_Chlorophyll_A",
@@ -43,8 +43,8 @@ class Nasa:
                 "Img_Type": "png",
             },
         }
-        self.time = time
-        self.TILE_MATRIX = TILE_MATRIX
+        print("I Ran!")
+        self.TILE_MATRIX = 2
 
     @classmethod
     def default_config(self):
@@ -53,6 +53,12 @@ class Nasa:
     @classmethod
     def time_config(self, time):
         self.__init__(self, time, 2)
+
+    def get_layers(self):
+        return self.layers.keys()
+
+    def set_time(self, time):
+        self.time = time
 
     def set_cordinates(self, latitude, longitude):
         self.latitude = latitude
