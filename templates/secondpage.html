@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="secondpage.css">
+    <link rel="stylesheet" href="{{ url_for('static', filename='secondpage.css') }}">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Second page</title>
 </head>
@@ -11,7 +11,7 @@
         <div class="container">
           <div class="column">
             <div class="card-wrapper">
-              <a href="/analysispage.html">
+              <a href="/analysispage">
               <div class="icon-wrapper">
                 <div class="icon-image">
                 </div>
@@ -33,7 +33,7 @@
             </div>
           </div>
           <div class="card-wrapper-1">
-            <a href="/form.html">
+            <a href="/form">
             <div class="icon-wrapper-1">
               <div class="icon-image-1">
               </div>

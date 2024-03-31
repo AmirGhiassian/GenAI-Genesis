@@ -93,3 +93,22 @@ class Nasa:
     def show_image(self, layer):
         plt.imshow(self.get_image(layer))
         plt.show()
+
+    def get_image_bytes(self, layer):
+        self.layer = layer
+        satalite_image = (
+            f"https://gitc.earthdata.nasa.gov/wmts/epsg4326/best/%s/%s/%s/%s/%s/%s/%s.%s"
+            % (
+                self.layers[layer]["layer"],
+                self.layers[layer]["style"],
+                self.time,
+                self.layers[layer]["Tile_Matrix_Set"],
+                self.TILE_MATRIX,
+                self.TILEROW,
+                self.TILECOL,
+                self.layers[layer]["Img_Type"],
+            )
+        )
+        response = requests.get(satalite_image)
+
+        return response.content

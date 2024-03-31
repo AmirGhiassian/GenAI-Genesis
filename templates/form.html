@@ -2,14 +2,14 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="form.css">
+    <link rel="stylesheet" href="{{ url_for('static', filename='form.css') }}">
     
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
 <body>
     <div class="comparison-page" class="bg-primary">
-      <form>
+      <form method="GET" action="/analysis" id="locationForm">
           <div class="longitude">
             <label for="">Longitude</label><br><br>
              <input type="number" name="longitude" id="longitude" class="rectangle-2061">
@@ -23,10 +23,14 @@
           <div >
           </div>
           <div >
+            <div class="date">
+              <label for="">Date</label><br><br>
+               <input type="text" name="date" id="date" class="rectangle-2062">
+            </div>
           </div>
           <div class="linksign-up">
             <span class="enter">
-              Enter
+              <button type="submit" class="rectangle-2063">Enter</button>
             </span>
           </div>
           
