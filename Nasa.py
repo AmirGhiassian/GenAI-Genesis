@@ -46,6 +46,9 @@ class Nasa:
         print("I Ran!")
         self.TILE_MATRIX = 2
 
+    def change_style(self, layer, style):
+        self.layers[layer]["style"] = style
+
     @classmethod
     def default_config(self):
         self.__init__(self, "default", 2)
