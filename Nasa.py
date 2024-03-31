@@ -102,15 +102,6 @@ class Nasa:
         img = plimg.open(BytesIO(response.content))
         return img
 
-    def show_image(self):
-        plt.imshow(
-            self.get_image(
-                self.layers,
-                self.layer,
-                self.time,
-                self.TILE_MATRIX,
-                self.TILEROW,
-                self.TILECOL,
-            )
-        )
+    def show_image(self, layer):
+        plt.imshow(self.get_image(layer))
         plt.show()
