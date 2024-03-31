@@ -33,8 +33,9 @@
 }
 
 .divw-layout-grid {
-  text-align: center;
+  text-align: left;
   margin-top: 50px; /* Adjust spacing as needed */
+  width: 35%;
 }
 
 .imageimage-12 {
@@ -57,7 +58,7 @@
 
 .click-to-enter {
   display: inline-block;
-  padding: 10px 20px;
+  padding: 40px 60px;
   font-size: 1.5rem; /* Adjust font size as needed */
   color: #fff; /* Text color */
   background-color: #8e24aa; /* Button background color */

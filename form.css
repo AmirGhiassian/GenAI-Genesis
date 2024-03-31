@@ -13,8 +13,10 @@ body {
   .comparison-page .purple-glacier-1 {
     border-radius: 13px;
     background: url('../assets/images/purpleGlacier1.jpeg') 50% / cover no-repeat;
-    width: 1559px;
+    width: 100%;
     height: 264px;
+    bottom: 0;
+    position:absolute;
   }
   .comparison-page .rectangle-2061 {
     border-radius: 15px;
