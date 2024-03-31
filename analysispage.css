@@ -1,0 +1,168 @@
+.dashboard {
+    background: #893BF7;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 21.5px;
+    width: 1480px;
+    box-sizing: border-box;
+  }
+  .dashboard .purple-glacier-1 {
+    border-radius: 13px;
+    background: url('../assets/images/purpleGlacier1.jpeg') 50% / cover no-repeat;
+    position: relative;
+    width: 1480px;
+    height: 231px;
+  }
+  .dashboard .frame-2610490 {
+    border-radius: 12px 12px 0 0;
+    background: #EAEAEA;
+    margin: 0 0 388px 46px;
+    display: flex;
+    flex-direction: row;
+    padding: 0 84.5px;
+    width: 1062px;
+    box-sizing: border-box;
+  }
+  .dashboard .frame-2610478 {
+    border-radius: 12px 12px 0 0;
+    background: #EAEAEA;
+    display: flex;
+    flex-direction: row;
+    padding: 42.5px 0;
+    width: 220px;
+    box-sizing: border-box;
+  }
+  .dashboard .dashboard-square-01 {
+    margin: 1.5px 12px 1.5px 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 20px;
+    height: 20px;
+    box-sizing: border-box;
+  }
+  .dashboard .pollution-level {
+    overflow-wrap: break-word;
+    font-family: 'DM Sans';
+    font-weight: 500;
+    font-size: 18px;
+    color: var(--dark, #222222);
+  }
+  .dashboard .frame-2610481 {
+    border-radius: 12px 12px 0 0;
+    background: #FFFFFF;
+    margin: 22px 0;
+    display: flex;
+    flex-direction: row;
+    padding: 20.5px 0;
+    width: 199px;
+    height: fit-content;
+    box-sizing: border-box;
+  }
+  .dashboard .edit-01 {
+    margin: 1.5px 12px 1.5px 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 20px;
+    height: 20px;
+    box-sizing: border-box;
+  }
+  .dashboard .ui-elements {
+    overflow-wrap: break-word;
+    font-family: 'DM Sans';
+    font-weight: 500;
+    font-size: 18px;
+    color: var(--dark, #222222);
+  }
+  .dashboard .frame-2610479 {
+    border-radius: 12px 12px 0 0;
+    background: #EAEAEA;
+    margin: 22px 0;
+    display: flex;
+    flex-direction: row;
+    padding: 20.5px 0;
+    width: 198px;
+    height: fit-content;
+    box-sizing: border-box;
+  }
+  .dashboard .image-01 {
+    margin: 2px 12.5px 2px 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 19px;
+    height: 19px;
+    box-sizing: border-box;
+  }
+  .dashboard .illustrations {
+    overflow-wrap: break-word;
+    font-family: 'DM Sans';
+    font-weight: 500;
+    font-size: 18px;
+    color: var(--dark, #222222);
+  }
+  .dashboard .frame-2610480 {
+    border-radius: 12px 12px 0 0;
+    background: #EAEAEA;
+    margin: 22px 0;
+    display: flex;
+    flex-direction: row;
+    padding: 20.5px 0;
+    width: 276px;
+    height: fit-content;
+    box-sizing: border-box;
+  }
+  .dashboard .instagram {
+    margin: 2px 12.5px 2px 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 19px;
+    height: 19px;
+    box-sizing: border-box;
+  }
+  .dashboard .instagram-templates {
+    overflow-wrap: break-word;
+    font-family: 'DM Sans';
+    font-weight: 500;
+    font-size: 18px;
+    color: var(--dark, #222222);
+  }
+  .dashboard .frame-2610472 {
+    border-radius: 0 0 12px 12px;
+    background: #FFFFFF;
+    position: absolute;
+    right: 186px;
+    bottom: 79px;
+    width: 1062px;
+    height: 540px;
+  }
+  .dashboard .pollution-analytics {
+    margin: 0 0 27.5px 45px;
+    display: inline-block;
+    overflow-wrap: break-word;
+    font-family: 'Inter';
+    font-weight: 600;
+    font-size: 64px;
+    letter-spacing: -1.8px;
+    line-height: 1.406;
+    color: #FFFFFF;
+  }
+  .dashboard .elements {
+    width: 20px;
+    height: 20px;
+  }
+  .dashboard .elements-1 {
+    width: 20px;
+    height: 20px;
+  }
+  .dashboard .elements-2 {
+    width: 19px;
+    height: 19px;
+  }
+  .dashboard .elements-3 {
+    width: 19px;
+    height: 19px;
+  }
