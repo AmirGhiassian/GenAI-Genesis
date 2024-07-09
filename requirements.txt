@@ -3,7 +3,7 @@ asttokens==2.4.1
 blinker==1.7.0
 cachetools==5.3.3
 Cartopy==0.22.0
-certifi==2024.2.2
+certifi==2024.7.4
 charset-normalizer==3.3.2
 click==8.1.7
 contourpy==1.2.0
